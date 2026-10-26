@@ -6,17 +6,21 @@
 
   <groupId>org.artifactory</groupId>
   <artifactId>firstpack</artifactId>
-  <version>1.6</version>
+  <version>1.7</version>
 
 
   <distributionManagement>
-    <!--Write code here-->
+	<repository>
+		<id>github</id>
+		<name>GitHub OWNER Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/romangrypa/5287-artifacts</url>
+	</repository>
   </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
   <dependencies>
